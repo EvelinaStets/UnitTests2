@@ -3,9 +3,7 @@ public class Hello{
 		System.out.prinl("hello");
 	}
 	public boolean isPhoneNumber(String line){
-		return false;
+		return line.matches("\\d{10}");
 	}
-	public static boolean isData(){
-		//something heree.don't know yet
-	}
+
 }
