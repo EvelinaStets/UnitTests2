@@ -5,5 +5,7 @@ public class Hello{
 	public boolean isPhoneNumber(String line){
 		return false;
 	}
-	
+	public static boolean isData(){
+		//something heree.don't know yet
+	}
 }
